@@ -4,7 +4,7 @@ on:
   workflow_call:
 
 jobs:
-  test-job:
+  test-job2:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,7 +18,7 @@ jobs:
       #     npm whoami
 
       - name: testing
-        uses: iamhollow/workflowz/.github/actions/new-action/action.yml@main
+        uses: iamhollow/workflowz/action@main
 
       # - name: Cache dependencies
       #   uses: actions/cache@v2
