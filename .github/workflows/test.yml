@@ -18,7 +18,7 @@ jobs:
       #     npm whoami
 
       - name: ha-ha
-        uses: ./.github/actions/joke-action
+        uses: ./.github/actions/new-action
 
       # - name: Cache dependencies
       #   uses: actions/cache@v2
