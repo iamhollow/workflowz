@@ -17,12 +17,15 @@ jobs:
       #     cat .npmrc
       #     npm whoami
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-
+      - name: ha-ha
+        uses: ./.github/actions/joke-action
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Cache dependencies
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ~/.npm
+      #     key: npm-${{ hashFiles('package-lock.json') }}
+      #     restore-keys: npm-
+
+      # - name: Install dependencies
+      #   run: npm install
