@@ -18,7 +18,7 @@ jobs:
       #     npm whoami
 
       - name: testing
-        uses: iamhollow/workflowz/action@main
+        uses: iamhollow/workflowz/.github/actions/joke-action@main
 
       # - name: Cache dependencies
       #   uses: actions/cache@v2
